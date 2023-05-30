@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #333;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    color: rgb(198, 184, 33);
+    margin: 20px 0;
+}
+
+.area {
+    width: 300px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-top: 30px;
+}
+.area .item {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 60px;
+    font-weight: bold;
+    color: rgb(226, 198, 56);
+    cursor: pointer;
+}
+.item:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.item.t {
+    border-top: 1px solid rgb(17, 235, 17);
+    box-shadow: 0 0 1em gold;
+}
+.item.l {
+    border-left: 1px solid rgb(17, 235, 17);
+    box-shadow: 0 0 1em gold;
+}
+.item.r {
+    border-right: 1px solid rgb(17, 235, 17);
+    box-shadow: 0 0 1em gold;
+}
+.item.b {
+    border-bottom: 1px solid rgb(17, 235, 17);
+    box-shadow: 0 0 1em gold;
+}
+
+.info {
+    width: 300px;
+    display: flex;
+    margin-top: 30px;
+    border: 2px solid rgb(17, 235, 17);
+    box-shadow: 0 0 1em gold;
+    border-radius: 10px;
+    padding: 10px;
+}
+.infoitem {
+    flex: 1;
+}
+.infotitulo {
+    text-align: center;
+    color: rgb(198, 184, 33);
+    margin-bottom: 10px;
+}
+.infocorpo {
+    text-align: center;
+    color: rgb(198, 184, 33);
+    font-size: 20px;
+}
+
+.reset {
+    border: 1px solid rgb(37, 37, 37);
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.2);
+    color: rgb(17, 235, 17);
+    padding: 10px;
+    margin-top: 20px;
+    box-shadow: 0 0 1em gold;
+    transition: .5s;
+    cursor: pointer;
+}
+
+.reset:hover {
+    box-shadow: 0 0 1em rgb(17, 235, 17);
+    color: rgb(198, 184, 33);
+    transition: .5s;
+}
+
+.footer {
+    margin-top: 8em;
+    color: rgb(198, 184, 33);
+    /* box-shadow: 0 0 1em rgb(17, 235, 17); */
+}
+
+.footer {
+    color: rgb(198, 184, 33);
+    text-shadow: 0 0 1em rgb(17, 235, 17);
+
+}
