@@ -6,15 +6,12 @@
 > ### Briefing
 >     This project aimed at DOM manipulation using only JavaScript
 > ### Features
-> - [X] Game área
+> - [X] Game area
 > - [X] Information area
 > - [X] Reset button
 
-> ### Home Screen
-> ![Capturar1](https://github.com/Giarlan/memory-game/assets/108962578/893103f3-6c9b-47b4-8c3d-86cc71ff0771)  
-
-> ### Game-Over Screen
-> ![Capturar](https://github.com/Giarlan/memory-game/assets/108962578/90ba9f81-dcb7-4497-a77f-2fbdb999a574)
+> ### Game Screen
+> ![Hash-Game](https://github.com/Giarlan/Hash-Game/assets/108962578/fe05759d-1b7a-4455-a6bb-b7d3670e3ab5)  
 
 > ### Prerequisites to run it
 >     You only need a browser to click on the following link and run the application.
@@ -22,7 +19,7 @@
 > ### Deploy
 > * Test by using the link below
 >   
->   https://giarlan-memory-game.netlify.app/
+>   https://giarlan-hash-game.netlify.app/
 
 
 > ### Technologies Used
